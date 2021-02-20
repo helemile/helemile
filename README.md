@@ -1,4 +1,4 @@
-<img src="img/qrcode.jpg" align="right" sizes="(max-width: 300px) 200px, 200px"/>
+<img alt="微信搜索 青梅主码" src="img/qrcode.jpg" align="right" sizes="(max-width: 300px) 200px, 200px" importance="high" decoding="async"/>
 
 ### Hi there 👋
 <!--
