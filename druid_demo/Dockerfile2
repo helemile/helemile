@@ -1,0 +1,19 @@
+#用于构建复合druid_demo2镜像（包括应用程序和数据库环境）：druid2_demo
+FROM centos
+
+ENV MYPATH /usr/local
+WORKDIR $MYPATH
+
+RUN yum install -y java-1.8.0-openjdk java-1.8.0-openjdk-devel mariadb-server
+#RUN yum install -y mariadb-server
+
+VOLUME /tmp
+ARG JAR_FILE=druid_demo-0.0.1-SNAPSHOT.jar
+COPY ${JAR_FILE} /druid_demo-0.0.1-SNAPSHOT.jar
+
+EXPOSE 3306
+EXPOSE 8080
+
+#ENTRYPOINT ["sh", "-c", "java ${JAVA_OPTS} -jar /druid_demo-0.0.1-SNAPSHOT.jar ${0} ${@}"]
+
+CMD /bin/bash
