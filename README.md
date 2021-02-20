@@ -1,8 +1,6 @@
-### Hi there 👋
-
 <img src="img/qrcode.jpg" align="right" sizes="(max-width: 300px) 200px, 200px"/>
 
-
+### Hi there 👋
 <!--
 **helemile/helemile** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
