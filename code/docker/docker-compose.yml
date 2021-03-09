@@ -1,0 +1,36 @@
+version: '2'
+services:
+  mysql:
+    image: mysql:5.7
+    hostname: mysql
+    container_name: mysql
+    privileged: true
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: adp_test
+      MYSQL_ROOT_HOST: '%'
+      
+    volumes:
+      - /Users/wangjie/mysqldata4:/var/lib/mysql
+      - ./mysql/init:/docker-entrypoint-initdb.d/
+    ports:
+      - "3306:3306"
+    command: --default-authentication-plugin=mysql_native_password --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    networks:
+      - app
+         
+  app:
+    build: ./druid_demo
+    image: druid_demo2:0.0.1-SNAPSHOT
+    container_name: druid_demo
+    ports:
+      - "8888:8888"
+    environment:
+      SLEEP_SECOND: 8
+    depends_on:
+      - mysql
+    networks:
+      - app
+networks:
+  app:
+    driver: bridge
