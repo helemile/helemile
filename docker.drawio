@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T09:06:53.255Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.9.2" etag="1FTL08tFlPyMNGPt0YX6" type="github"><diagram id="NQ7AL2f5EfL6jX6GfZ7U">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-24T09:44:59.658Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="UPBfbqHMTMuAO4GWeRmr" version="14.9.2" type="github">
+  <diagram id="NQ7AL2f5EfL6jX6GfZ7U" name="Page-1">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n4wxmyX8QbnDL6qaSaw0-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="414" y="120" width="306" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="n4wxmyX8QbnDL6qaSaw0-3" value="内核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="414" y="380" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n4wxmyX8QbnDL6qaSaw0-4" value="（容器组命名空间、设备映射）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="414" y="340" width="306" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n4wxmyX8QbnDL6qaSaw0-5" value="引导系统文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="414" y="300" width="306" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n4wxmyX8QbnDL6qaSaw0-6" value="基础镜像（Centos）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="414" y="260" width="306" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n4wxmyX8QbnDL6qaSaw0-8" value="镜像（加入vim）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="414" y="220" width="306" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n4wxmyX8QbnDL6qaSaw0-9" value="镜像（加入 net-tools）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="414" y="180" width="306" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n4wxmyX8QbnDL6qaSaw0-10" value="可写容器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="140" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
