@@ -6,4 +6,4 @@
 - 🌱 个人比较擅长 Spring Boot、Spring Cloud 框架，Mysql、Java 以及 Docker 等
 - 👯 喜欢旅行、阅读以及分享
 - 🤔 个人微信公众号：**青梅主码** 最近在分别更新 Spring Boot、Spring Cloud 以及Docker 系列文章，欢迎关注、交流
-- 🌱 掘金主页：https://juejin.cn/user/2277843825604222
+- 🌱 AI 导航网站：aiopenminds.com/ （可收藏每天使用）
